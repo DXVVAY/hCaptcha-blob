@@ -5,7 +5,7 @@ https://t.me/dexv0
 
 > [!CAUTION]
 > This is just a sandbox and isnt capeable of decrypting the blob!
-
+> Average encrypt time is around 2-8 ms :D
 
 ## Algorithm
 ### I dont know the main encryption algo but its AES something :sob: ill probs figure it out later
@@ -27,6 +27,8 @@ https://t.me/dexv0
 
 
 ## Usage
+
+Local:
 ```python
 from utils import JsdomRuntime, BlobSandbox
 
@@ -39,6 +41,22 @@ enc = runtime.eval(f'encrypt("{data}")')
 print(enc)
 ```
 
+API:
+```cmd
+uvicorn main:app --port 4200
+```
+
+```python
+import requests
+
+data = {
+    "data": "dexv", 
+    "version": "0d69d1a359119bd0e2c5ca7f11f300ac050517fd19b612f86c0c75a2b0b39cbe"
+}
+
+result = requests.post("http://127.0.0.1:4200/encrypt_blob", json=data).json()
+print(result.get("result", "Failed"))
+```
 # Credits
 
 * **DEXV** - *Shit head (retarded)* - [DEXV](https://dexv.lol) - Main Author
