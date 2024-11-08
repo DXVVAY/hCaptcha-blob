@@ -1,4 +1,5 @@
 # hCaptcha "fingerprint_blob" Encryption
+![gif](https://github.com/user-attachments/assets/6dae33d6-587d-490c-b874-3836c595f500)
 
 made by Dexv! 
 https://t.me/dexv0
