@@ -44,7 +44,7 @@ print(enc)
 
 API:
 ```cmd
-uvicorn main:app --port 4200
+uvicorn api:app --port 4200
 ```
 
 ```python
