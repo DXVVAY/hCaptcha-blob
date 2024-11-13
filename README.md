@@ -25,6 +25,7 @@ https://t.me/dexv0
 
 5. **Convert encrypted output to hexadecimal string:**
    - The IV and the encrypted data are combined and converted to a hexadecimal string.
+   - (*edit*) apparently its base64 encoded now
 
 
 ## Usage
