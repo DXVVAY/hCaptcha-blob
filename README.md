@@ -9,7 +9,7 @@ https://t.me/dexv0
 > Average encrypt time is around 2-8 ms :D
 
 ## Algorithm
-### I dont know the main encryption algo but its AES something :sob: ill probs figure it out later
+### I understand it now. Dm me on [telegram](https://t.me/dexv0) for enc/dec and key fetching.
 
 ### Main functions steps
 1. **Generate IV:** a 16-byte random IV is created.
