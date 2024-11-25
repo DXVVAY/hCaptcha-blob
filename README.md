@@ -23,7 +23,7 @@ https://t.me/dexv0
    - Each 16 byte block is XORed with the current block (starting with the IV) and then encrypted.
    - The encrypted block is saved and used as the next "current block" for encryption.
 
-5. **Convert encrypted output to hexadecimal string:**
+5. **Convert encrypted output to ~~hexadecimal~~ base64 string for both iv and output connected with a dot:**
    - The IV and the encrypted data are combined and converted to a hexadecimal string.
    - (*edit*) apparently its base64 encoded now
 
