@@ -9,7 +9,7 @@ https://t.me/dexv0
 > Average encrypt time is around 2-8 ms :D
 
 ## Algorithm
-### I understand it now. Dm me on [telegram](https://t.me/dexv0) for enc/dec and key fetching.
+### I understand it now. DCH decided to publish our findings [encryption](https://github.com/DCH81/hCaptcha-fingerprint-blob).
 
 ### Main functions steps
 1. **Generate IV:** a 16-byte random IV is created.
